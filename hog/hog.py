@@ -46,6 +46,7 @@ def free_bacon(score):
     # Trim pi to only (score + 1) digit(s)
     # BEGIN PROBLEM 2
     "*** YOUR CODE HERE ***"
+    pi = pi // pow(10, 101 - score)
     # END PROBLEM 2
 
     return pi % 10 + 3
